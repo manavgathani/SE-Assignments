@@ -1,13 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int x, y;
-printf("Input value for x & y: \n");
-scanf("%d%d",&x,&y);
-printf("Before swapping the value of x & y: %d %d",x,y);
-x=x+y;
-y=x-y;
-x=x-y;
-printf("\nAfter swapping the value of x & y: %d %d",x,y);
-return 0;
+	int a,b;
+	printf("Enter two numbers a and b :- ");
+	scanf("%d%d",&a,&b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("After swapping your value of a=%d and b=%d",a,b);
+	return 0;
 }

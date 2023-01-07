@@ -2,39 +2,33 @@
 int main()
 {
 	int day;
-	printf("Enter 1 for monday");
-	printf("\nEnter 2 for tuesday");
-	printf("\nEnter 3 for wednesday");
-	printf("\nEnter 4 for thursday");
-	printf("\nEnter 5 for friday");
-	printf("\nEnter 6 for saturday");
-	printf("\nEnter 7 for sunday");
+	printf("Enter the number :- ");
 	scanf("%d",&day);
 	switch(day)
 	{
 		case 1:
-			printf("Monday");
+			printf("Monday",1);
 			break;
 		case 2:
-			printf("Tuesday");
+			printf("Tuesday",2);
 			break;
 		case 3:
-			printf("Wednesday");
+			printf("Wednesday",3);
 			break;
 		case 4:
-			printf("Thursday");
+			printf("Thursday",4);
 			break;
 		case 5:
-			printf("Friday");
+			printf("Friday",5);
 			break;
 		case 6:
-			printf("Saturday");
+			printf("Saturday",6);
 			break;
 		case 7:
-			printf("Sunday");
+			printf("Sunday",7);
 			break;
 		default:
-			printf("Invalid");
+			printf("Invalid"); 
 			
 		
 		
