@@ -43,7 +43,7 @@ access specifiers:-
 
 4) char- %c
 
-Variables:-
+Variables:- Suppose we have a bottle and we store water in it. so bottle is container or variable or we store water in it.
 
 To store any value
 
@@ -102,7 +102,7 @@ Types of Operators:-
 
 
 3) Conditional or relational Operators:-
-boolean values-- True and False- 1 and 0
+boolean values-- True and False- 1 and 0 -- AC is on or off- 1 or 0
 
 ==
 >
@@ -131,7 +131,8 @@ char- 1 byte
 
 
 Conditional Statements:-
-
+suppose your father says that if you get above 90% marks then you will get a bike. So above 90% marks is a condition. If he/she does not achieve 90% marks then 
+he/she should not get bike. So this called condition
 1) if statement
 2) if else statement
 3) else if statement or if..else if..else ladder
@@ -197,8 +198,8 @@ syntax:-
 	}
 	else
 
-5) Switch statement or Switch case:-
-
+5) Switch statement or Switch case:-It works like real switch like we have different switches for different fan likewise we have different switch case for
+different condition
 syntax:-
 
 	switch(expression)
@@ -222,7 +223,8 @@ syntax:-
 
 
 
-Loops in C :-
+Loops in C :-Login button in flipkart website reamins same in different pages untill we login. So developer put login button in loop to repeat it.
+In spotify music app next song will automatically play after one song finish. So all the songs are in loop.
 
 1) For Loop
 --> Nested For Loop
