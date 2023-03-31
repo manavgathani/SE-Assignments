@@ -1,0 +1,172 @@
+Arrays in C language:-
+
+Arrays:- Array is a derived data type which is used to collect similar elements in a single location
+
+Array index starts from 0.
+
+	window  + 0
+	window + 1
+	window + 2
+	window + 3
+syntax:-
+
+	<datatype> varname[size]
+
+--> Array is also used in cart in ecommerce websites.
+
+Types of Arrays:-
+
+1) Single Dimensional Array(1-D)-- varname[size]
+
+2) Multi Dimensional Array(2-D)-- varname[row][col]
+
+1 2 3
+4 5 6
+
+3 9 2
+1 6 7
+
+Strings:-
+
+String is a series of characters:-
+
+a- 1 character
+manav- string
+tops- string
+
+
+string is used to store text or characters
+
+char varname[size]
+
+char name[20];
+
+int- %d
+string- %s
+
+scanf()-- user input
+gets(varname)
+
+#include<stdio.h>
+#include<string.h>
+
+strrev()
+strcmp()
+strcpy()
+strupr()
+strlwr()
+strlen()
+
+Real world :-
+
+1) Search Engine- google,firefox,yahoo
+
+2) Plagirism check
+
+3) Grammarly
+
+Functions in C:-
+
+Function is a block of code that we can use again and again when we call it.
+Inbuilt Function:-
+printf()
+scanf()
+
+user defined function:-
+myfunction()
+
+Function can make our code easier and shorter
+
+two number addition 
+
+int a,b;
+print value of a and b
+scan value of a and b
+print a+b
+
+
+add()
+{
+	int a,b;
+print value of a and b
+scan value of a and b
+print a+b
+
+}
+
+add();
+add();
+add();
+
+
+
+syntax:-
+	returntype functioname()
+	{
+		block of code 
+
+	}
+	main()
+	{
+		function calling
+	}
+
+ATM machine-- ATM card
+
+ATM pin 
+
+Withdraw money               ATM pin change
+
+Balance check   
+
+Function categories:-
+
+1) Function without parameters and without return value
+
+2) Function With parameters and without return value
+
+3) Function Without parameters and with return value
+
+4) Function With parameters and with return value
+
+
+int myfunction(int a, int b)
+{
+
+	code...
+}
+
+
+
+flipkart website
+
+	login()--  Function without parameters and without return value
+
+logic screen                      design screen
+
+
+email,mobile	               login(email,mobile)-- Function With parameters and without return value
+
+
+click on mobile button and it will return mobile page- Function Without parameters and with return value
+
+
+login(email,mobile)  
+
+enter email :- check the email of signin     
+
+if correct then it will return login page
+
+if incorrect it will return invalid email or password -  Function With parameters and with return value
+
+
+
+
+
+
+
+
+
+
+
+	
