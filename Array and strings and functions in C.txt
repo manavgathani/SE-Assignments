@@ -8,6 +8,11 @@ Array index starts from 0.
 	window + 1
 	window + 2
 	window + 3
+Real life example:- You have seen your contact list in mobile phone.It is in sorted order like from A-Z namewise. So they have used array concept in contact.
+Then your book pages uses array. Then chocolate box uses array in different ways.
+
+Example of 2-D arrays:- You have visit the auditorium then you have seen the seating arrangements of chairs. It is arranged using rows and columns using 2-d 
+arrays.
 syntax:-
 
 	<datatype> varname[size]
